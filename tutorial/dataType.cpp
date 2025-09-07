@@ -24,5 +24,7 @@ int main () {
  
 
   // Example 1: Vi du nay khai thac van de gi
+  cout << "=================Example 1==================\n";
+  cout << "============================================\n";
   return 0;
 }
