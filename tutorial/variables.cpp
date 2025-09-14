@@ -14,7 +14,7 @@ int main() {
     string myCountryside = "Viet Nam"; //my countryside is Viet Nam
     double myHeight = 1.7; // my height is 1.7m
     int myWeight = 75; // my weight is 75kg
-    bool mySchool = true; // I am a student
+    string myWork = "student"; // I am a student
     string mygrade = "University"; // my grade is University
     double myGPA = 8.53; // my GPA is 8.53
     string myUniversity = "HUFLIT"; // my university is HUFLIT
@@ -126,7 +126,7 @@ int main() {
     cout << "string: " << myCountryside << "\n";
     cout << "double: " << myHeight << "\n";
     cout << "int: " << myWeight << "\n";
-    cout << "bool: " << mySchool << "\n";
+    cout << "string: " << myWork << "\n";
     cout << "string: " << mygrade << "\n";
     cout << "double: " << myGPA << "\n";
     cout << "string: " << myUniversity << "\n";
