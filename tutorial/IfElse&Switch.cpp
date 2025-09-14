@@ -30,12 +30,17 @@ int main() {
     int day = 2; // 2 days
     cout << myTimeTable << "\n"; // print my time table
     switch (day){
-        case 1 :
+        case 1:  
+            cout << "1 day" "\n"; // print "1"
             cout << "Thursday" "\n"; // print "Thursday"
             break;
-        case 2 :
-            cout << "Friday" "\n"; //  print "Friday"
+        case 2:
+            cout << "2 day" "\n"; // print "2"
+            cout << "Friday" "\n"; // print "Friday"
             break;
-    cout << "I go to school on Thursday and Friday" "\n"; // print "I go to school on Thursday and Friday"
-    }
+        default:
+            cout << "3 day" "\n"; // print "3"
+            cout << "Saturday" "\n"; // print "Saturday"
+       
+             break;}
 }
