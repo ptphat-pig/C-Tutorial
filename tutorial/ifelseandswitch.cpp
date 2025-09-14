@@ -11,10 +11,42 @@ int main() {
     int h = 20; // h = 20
     if (i < h) {
         cout << "i is less than h\n"; // if i < h. print "i is less than h"
-        cout << "false]\n"; if (i>h) {
             cout << "i is greater than h\n"; // if i > h. print "i is greater than h"
-        } else {
-            cout << "i is equal to h\n"; // if i == h. print "i is equal to h"
-        }
-
+        } 
+    if (i >= h) {
+        cout << "false" "\n"; // if i >= h. print "false"
+    }else {
+        cout << "true" "\n"; // else print "true
     }
+    
+    cout << "==================Example 2===================\n";
+    // Example 2: This example is about Nested If statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
