@@ -1,0 +1,1 @@
+// This file is intended to demonstrate the use of if-else statements and switch-case statements in C++. It typically contains examples showing how conditional logic can be implemented to control program flow based on different values or user input.
