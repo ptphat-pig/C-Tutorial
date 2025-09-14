@@ -24,33 +24,18 @@ int main() {
     }
     
     cout << "==================Example 2===================\n";
-    // Example 2: This example is about Nested If statements
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // Example 2: This example is about Swtitch statements
+    string example2 = "This example is about Wsitch statements"; // this example is about Switch statements
+    string myTimeTable = "I go to school on :"; // my time table is I go to school on :
+    int day = 2; // 2 days
+    cout << myTimeTable << "\n"; // print my time table
+    switch (day){
+        case 1 :
+            cout << "Thursday" "\n"; // print "Thursday"
+            break;
+        case 2 :
+            cout << "Friday" "\n"; //  print "Friday"
+            break;
+    cout << "I go to school on Thursday and Friday" "\n"; // print "I go to school on Thursday and Friday"
+    }
 }
