@@ -2,11 +2,13 @@
 using namespace std;
 using std::cout;
 int main () {
+cout << "=================Example 1=================\n";
     //Example 1: This example is about For loops
      string example1 = "This example is about For loop" "\n"; // this example is about For loop
      for (int i = 0; i < 5; i++) {
     cout << i << "\n";
     }
+cout << "=================Example 2==================\n";
     //Example 2: This example is about For loops +
     string example2 = "This example is For loops" "\n"; // this example is about For loops +
     int sum = 0;
@@ -15,6 +17,7 @@ int main () {
         sum = sum + i;
 }
     cout << "Sum is " << sum << "\n";
+cout << "=================Example 3===================\n";
 // Example 3: This example is about Nested Loops
 string example3 = "This example is Nested Loops" "\n"; // This example is Nested Loops
     // Outer loop
@@ -26,12 +29,14 @@ string example3 = "This example is Nested Loops" "\n"; // This example is Nested
     cout << " Inner: " << j << "\n"; // Executes 6 times (2 * 3)
   }
 }
+cout << "================Example 4===================\n";
 // Example 4: This example is The foreach loop
 string example4 = "This example is The foreach loop" "\n"; // this example is The foreach loop
 int myNumbers[5] = {10, 20, 30, 40, 50}; 
 for (int num : myNumbers) {
   cout << num << "\n";
 }
+cout << "================Example 5===================\n";
 // Example 5: This example is Real Life Example
 string example5 = "This example is about Real Life Example" "\n"; // this example is Real Life Example
     int number = 2;
