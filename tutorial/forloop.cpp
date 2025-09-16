@@ -25,6 +25,11 @@ cout << "==================Example 2===================" "\n";
       for (int j = 1; j <= 3; ++j) {
         cout << " Inner: " << j << "\n"; // Executes 6 times (2 * 3)
     }
+    // Example 3: This example is about The foreach Loop
+    int myNumbers[5] = {10, 20, 30, 40, 50};
+    for (int num : myNumbers) {
+        cout << num << "\n";
+    }
 
 
 }
