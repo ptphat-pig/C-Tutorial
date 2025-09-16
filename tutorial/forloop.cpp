@@ -51,9 +51,27 @@ string example5 = "This example is about Real Life Example" "\n"; // this exampl
     for (i  = 1; i<= 10; i++) {
     cout << number << " x " << i << " = " << number * i << "\n";
     }
+cout << "===================Example 6===================\n";
+    // Example 6: This is While loop
+    string example6 = " This is whjile loop" "\n"; // this is while loop
+    int h = 0;
+    while (h < 5) {
+    cout << h << "\n";
+    h++;
+    }
+    cout << "and" << "\n";
+    int countdown = 3;
+
+    while (countdown > 0) {
+    cout << countdown << "\n";
+    countdown--;
+}
+
+    cout << "Happy New Year!!\n";
+}
   
    
-}
+
       
 
 
