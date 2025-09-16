@@ -25,7 +25,7 @@ string example3 = "This example is Nested Loops" "\n"; // This example is Nested
     cout << "Outer: " << i << "\n"; // Executes 2 times
 
     // Inner loop
-    for (int j = 1; j <= 3; ++j) {
+    for (int j = 1; j <= 3; j++) {
     cout << " Inner: " << j << "\n"; // Executes 6 times (2 * 3)
   }
 }
@@ -34,7 +34,12 @@ cout << "================Example 4===================\n";
 string example4 = "This example is The foreach loop" "\n"; // this example is The foreach loop
 int myNumbers[5] = {10, 20, 30, 40, 50}; 
 for (int num : myNumbers) {
-  cout << num << "\n";
+  cout << "num - 10 = 0" << "\n";
+  cout << "num - 10 = 10" << "\n";
+  cout << "num - 10 = 20" << "\n";
+  cout << "num - 10 = 30" << "\n";
+  cout << "num - 10 = 40" << "\n";
+  break;
 }
 cout << "================Example 5===================\n";
 // Example 5: This example is Real Life Example
