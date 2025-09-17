@@ -13,9 +13,8 @@ int main()
   bool myBoolean = true;     // Boolean
   string myString = "Hello"; // String
 
-
-  
   // Print variable values
+  cout << "=================Standard Example==================\n";
   cout << "int: " << myNum << "\n";
   cout << "float: " << myFloatNum << "\n";
   cout << "double: " << myDoubleNum << "\n";
