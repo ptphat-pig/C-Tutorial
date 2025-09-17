@@ -9,8 +9,8 @@ int main() {
     string example1 = "This example is about If-Else statements"; // this example is about If-Else statements
     int i = 10; // i = 10
     int h = 20; // h = 20
-    cout << " i = " << i << "\n"; //print i value
-    cout << " h = " << h << "\n"; //print h value
+        cout << " i = " << i << "\n"; //print i value
+        cout << " h = " << h << "\n"; //print h value
     if (i < h) {
         cout << "i < h" << "  ;  " << "i is less than h" "\n"; // if i < h. print "i is less than h"
             cout << "i is greater than h" "\n"; // if i > h. print "i is greater than h"
@@ -28,7 +28,7 @@ int main() {
     string example2 = "This example is else"; // this example is else
     int time = 20;
     if (time < 18) {
-    cout << "Good day.";
+        cout << "Good day.";
     } else {
   cout << "Good evening.";
 }
@@ -38,13 +38,13 @@ int main() {
     string example3 = "This example is else if" "\n"; // this example is about else if
     int hour = 22;
     if (hour < 10) {
-    cout << "Good morning." "\n";
+        cout << "Good morning." "\n";
     } 
     else if (hour < 20) {
-    cout << "Good day." "\n";
+        cout << "Good day." "\n";
     } else {
 
-    cout << "Good evening." "\n";
+        cout << "Good evening." "\n";
     }
     cout << "=================Example 4==================\n";
     // Example 4: This example is Short Hand If...Else
