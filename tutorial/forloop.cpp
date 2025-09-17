@@ -33,12 +33,12 @@ cout << "================Example 4===================\n";
 // Example 4: This example is The foreach loop
 string example4 = "This example is The foreach loop" "\n"; // this example is The foreach loop
 int myNumbers[5] = {10, 20, 30, 40, 50}; 
-for (int num : myNumbers) {
-  cout << "num - 10 = 0" << "\n";
-  cout << "num - 10 = 10" << "\n";
-  cout << "num - 10 = 20" << "\n";
-  cout << "num - 10 = 30" << "\n";
-  cout << "num - 10 = 40" << "\n";
+for (int number : myNumbers) {
+  cout << "number - 10 = 0" << "\n";
+  cout << "number - 10 = 10" << "\n";
+  cout << "number - 10 = 20" << "\n";
+  cout << "number - 10 = 30" << "\n";
+  cout << "number - 10 = 40" << "\n";
   break;
 }
 cout << "================Example 5===================\n";
