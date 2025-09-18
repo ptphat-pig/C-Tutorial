@@ -32,13 +32,20 @@ int main () {
     cout << "The sizeof(long double) is : " << sizeof(long double) << " bytes" << endl;
     cout << "The sizeof(bool) is : " << sizeof(bool) << " bytes" << endl;
     return 0;
+    
+    cout << "===================Example 3=====================\n";
+    // Example 3: This example is Sum using variables
+    string example3 = "This example is Sum using variables" "\n"; // This example is Sum variables
+    // Declare variables
+    int num1 = 29;
+    int num2 = 30;
+    int Tong = num1 + num2;
 
-
-
-
-
-
-
+    // Print output
+    cout << "Print the sum of two numbers : \n"; // Print the sum of two numbers
+    cout << "------------------------------------------\n";
+    cout << "The sum of" << num1 << "and" << num2 << "is :" << Tong<< "\n";
+    
 
 
 
