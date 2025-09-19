@@ -44,26 +44,8 @@ int main () {
     cout << "Print the sum of two numbers : \n"; // Print the sum of two numbers
     cout << "------------------------------------------\n";
     cout << "The sum of" << num1 << "and" << num2 << "is :" << Tong<< "\n";
-    cout << "===================Example 3=====================\n";
-    // Example 4: This example is Limits of Integer Data Types
-    string example4 = "This example is Limits of Integer Data Types" "\n"; // This exmaple is Limits of Tnteger Data Types
+    
 
-    cout << "Check the upper and lower limits of integers :" "\n"; // Print Check the upper and lower limits of integer :
-    cout << "-------------------------------------------------\n";
 
-    cout << "The maximum limit of int data type is :" << INT32_MAX << "\n"; // print The maximum limit of int data type is : +2147483647
-    cout << "The minimum limit of int data type is :" << INT32_MIN << "\n"; // print The minimum limit of int data type is : -2147483647
-    cout << "The maximum limit of unsigned int data type is :" << UINT32_MAX << "\n"; // print The minimum limit of unsigned int data type is : 4294967295
-    cout << "The maximum limit of long long data type is :" << INT64_MAX << "\n"; // print The maximum of long long data type is :  9223372036854775807
-    cout << "The minimum limit of long long data type is :" << INT64_MIN << "\n"; // print The minimum of long long data type is : -9223372036854775807
-    cout << "The maximum limit of unsigned long long data type is :" << 1+2*INT64_MAX << "\n"; // print The maximum of unsigned long long data is type :  18446744073709551615
-    cout << "The Bits contain in char data type is :" << sizeof(char) << "byte" << endl; // print The Bits contain in char data type is : 8
-    cout << "The maximum limit of char data type is :" << INT8_MAX << "\n"; // print The maximum limit of char data type is : 127 
-    cout << "The minimum limit of char data type is :" << INT8_MIN << "\n"; // print The minimum limit of char data type is : -128
-    cout << "The maximum limit of signed char is :" << INT8_MAX << "\n"; // print The minimum limit of signed char data type is : 127
-    cout << "The minimum limit of signed char is :" << INT8_MIN << "\n"; // print The maximum limit of signed char data type is : -128
-    cout << "The maximum limit of unsigned char is :" <<  1+2*INT8_MAX << "\n"; // print The maximum limit of unsigned char is data type is : 255 
-    cout << "The minimum limit of short data type is :" << INT16_MIN << "\n"; // print The minimum limit of short data type is : -32768
-    cout << "The maximum limit of short data type is :" << INT16_MAX << "\n"; // print The maximum limit of short data type is :  32768
-    cout << "The maximum limit of unsigned short data type is :" << 1+2*INT16_MAX << "\n"; // print The maximum limit of unsigned short data type is : 65535
+
 }
