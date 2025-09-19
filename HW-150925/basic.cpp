@@ -22,7 +22,7 @@ int main () {
     string example2 = "This example is about Size of Fundamental Data Types"; // This example is about Size of Fundamental Data Types
     cout << "Find Size of fundamental data types" "\n"; // Find Size of fundamental data types
     cout << "--------------------------------------\n";
-     cout << "The sizeof(char) is : " << sizeof(char) << " bytes" << endl;
+    cout << "The sizeof(char) is : " << sizeof(char) << " bytes" << endl;
     cout << "The sizeof(short) is : " << sizeof(short) << " bytes" << endl;
     cout << "The sizeof(int) is : " << sizeof(int) << " bytes" << endl;
     cout << "The sizeof(long) is : " << sizeof(long) << " bytes" << endl;
@@ -31,7 +31,6 @@ int main () {
     cout << "The sizeof(double) is : " << sizeof(double) << " bytes" << endl;
     cout << "The sizeof(long double) is : " << sizeof(long double) << " bytes" << endl;
     cout << "The sizeof(bool) is : " << sizeof(bool) << " bytes" << endl;
-    return 0;
     
     cout << "===================Example 3=====================\n";
     // Example 3: This example is Sum using variables
