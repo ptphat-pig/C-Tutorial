@@ -147,29 +147,29 @@ int main()
     }
     cout << "Result: " << resultEx7 << "\n"; */
 
- /*    cout << "======================Example 8========================\n";
+    /*    cout << "======================Example 8========================\n";
 
-    string s;
-    cout << "Type value of s: ";
-    getline(cin, s);
-    int length = s.length();
-    string resultEx8 = "";
-    string twoFromChar = "";
-    if (length >= 2)
-    {
-        twoFromChar += s[0];
-        twoFromChar += s[1];
-        cout << twoFromChar << "\n";
-        for (int i = 0; i < 4; i++)
-        {
-            resultEx8 += twoFromChar;
-        }
-    }
-    else
-    {
-        resultEx8 = s;
-    }
-    cout << "Result: " << resultEx8 << "\n"; */
+       string s;
+       cout << "Type value of s: ";
+       getline(cin, s);
+       int length = s.length();
+       string resultEx8 = "";
+       string twoFromChar = "";
+       if (length >= 2)
+       {
+           twoFromChar += s[0];
+           twoFromChar += s[1];
+           cout << twoFromChar << "\n";
+           for (int i = 0; i < 4; i++)
+           {
+               resultEx8 += twoFromChar;
+           }
+       }
+       else
+       {
+           resultEx8 = s;
+       }
+       cout << "Result: " << resultEx8 << "\n"; */
 
     /* cout << "======================Example 9========================\n";
 
@@ -182,25 +182,26 @@ int main()
     if ( length >= 1) {
         lastCharacter = s[length - 1];
         cout << lastCharacter << "\n";
-        for (int i = 0; i < length; i++){
-            resultEx9 = lastCharacter + s + lastCharacter;
-        }
-    }         
+        resultEx9 = lastCharacter + s + lastCharacter;
+    }
     cout << "Result: "<< resultEx9 << "\n"; */
 
-     cout << "======================Example 10========================\n";
-     
+    cout << "======================Example 10========================\n";
+
     int a;
     cout << "Type value of a: ";
     cin >> a;
     bool resultEx10;
-    if (a % 3) {
+    cout << a % 3 << "\n";
+    cout << a/ 3 << "\n";
+    cout << a % 7 << "\n";
+    if (a % 3 == 0  || a % 7 == 0)
+    {
         resultEx10 = true;
-    } else if (a % 7){
-        resultEx10 = true;
-    } else {
+    }
+    else
+    {
         resultEx10 = false;
     }
-    cout << "Result: "<< resultEx10 << "\n";
-
+    cout << "Result: " << resultEx10 << "\n";
 }
