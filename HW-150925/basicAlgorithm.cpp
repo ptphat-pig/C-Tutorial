@@ -193,15 +193,18 @@ int main()
     cin >> a;
     bool resultEx10;
     cout << a % 3 << "\n";
-    cout << a/ 3 << "\n";
+    cout << a / 3 << "\n";
     cout << a % 7 << "\n";
-    if (a % 3 == 0  || a % 7 == 0)
+    if (a > 0)
     {
-        resultEx10 = true;
-    }
-    else
-    {
-        resultEx10 = false;
+        if (a % 3 == 0 || a % 7 == 0)
+        {
+            resultEx10 = true;
+        }
+        else
+        {
+            resultEx10 = false;
+        }
     }
     cout << "Result: " << resultEx10 << "\n";
 }
