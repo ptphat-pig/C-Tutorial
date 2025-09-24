@@ -85,7 +85,7 @@ int main()
         // Example 6: This example is Check Primitive Value Limits
         string example6 = "This example is Check Primitive Value Limits"
                           "\n";            // This example is Check Primitive Value Limits
-        string theGender = "F";            // the gender is F
+        char theGender = 'F';              // the gender is F
         int herMarried = 1;                // she was married one time
         int herSons = 2;                   // she have two sons
         int herAppointment = 2009;         // she was appointmented for 2009
