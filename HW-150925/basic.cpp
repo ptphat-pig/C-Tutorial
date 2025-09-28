@@ -220,7 +220,7 @@ int main()
         cout << "After swapping the 1st number is : " << u << "\n";
         cout << "After swapping the 2nd number is : " << i << "\n";
 
-         cout << "===================Example 14=====================\n";
+        cout << "===================Example 14=====================\n";
         // 
         double R = 6;
         double volumeSphere = 4.0 / 3.0 * M_PI * pow(R, 3);

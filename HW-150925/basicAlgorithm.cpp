@@ -106,7 +106,7 @@ int main()
     else
     {
         resultEx4 = false;
-    }
+    }   
     cout << "Result: " << resultEx4 << "\n"; */
     /*
         cout << "======================Example 5========================\n";
@@ -122,7 +122,7 @@ int main()
             if (s[i] == ' ')
                 break;
             firstWord = firstWord + s[i];
-        }
+        }   
         if (firstWord == "if"){
             resultEx5 = s;
         } else{
@@ -142,17 +142,18 @@ int main()
      int length = s.length();
      string resultEx6 = "";
      for ( int i = 0; i < length; i++){
-         if (i == n)
+         if (i == n){
              continue;
          resultEx6 = resultEx6 + s[i];
          cout << i << ":" << s[i] << ":" << resultEx6 << "\n";
-     }
+        }
+    }     
   */
     /* cout << "======================Example 7========================\n";
 
     string s;
     cout << "Type value of s: ";
-    getline(cin, s);
+    getline(cin, s);s
     int length = s.length();
     string resultEx7 = "";
     if (length != 1)
